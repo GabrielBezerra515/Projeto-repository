@@ -1,0 +1,384 @@
+html{
+    scroll-behavior: smooth;
+ }
+body{
+    margin: 0;  
+}
+#menu ul{
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+}
+#menu ul li{
+    padding-top: 10px;
+    display: inline;
+    float: right;
+    margin-right: 50px;
+}
+#menu ul li a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+#menu ul li a:hover{
+    background-color: blue;
+}
+
+#primeiraImg{
+    background-image: url("../img/4.jpg");
+    background-size: cover; 
+    height: 650px;
+    background-position: center;
+}
+.btn{
+    margin-top: 30%;
+    margin-left: 42%;
+    width: 120px;
+    height: 65px;
+    width: 250px;
+    font-size: 25px;
+    background-color: #FF3333;
+    border: 1px solid red;
+    color: white;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: #F31D1D;
+    cursor: pointer;
+}
+.servicos{
+    display: inline-block;
+    width: 31.8%;
+    height: 580px;
+}
+#mobile{
+    text-align: center;
+    margin-left: 10px;
+    background-image: url('../img/floresta.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#fundoRoza{
+    height: 100%;
+    background-color: rgba(242, 117, 95, 0.582); ;
+}
+#fundoPreto{
+    height: 100%;
+    background-color: rgba(54, 62, 80, 0.75);
+}
+#web{
+    text-align: center;
+    margin-left: 10px;
+    background-image: url('../img/floresta.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#design{
+    text-align: center;
+    margin-left: 10px;
+    background-image: url('../img/floresta.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#fundoAzul{
+    height: 100%;
+    background-color: rgba(70, 187, 226, 0.589);
+}
+.h4{
+    color: #ffffff;
+    font: 22px "Source Sans Pro";
+    margin: 45px 40px;
+    padding-top: 0px;
+}
+.p{
+    color: #ffffff;
+    font: 16px "Source Sans Pro", "sans-serif" ;
+    padding: 10px 5px;
+    
+}
+.h4port{
+    color: #ffffff;
+    font: 28px "Source Sans Pro", "sans-serif";
+    margin: 0px 10px;
+}
+.pport{
+    color: #AAAAAA;
+    font: 18px "Source Sans Pro", "sans-serif";
+    margin: 0px 10px;
+    padding: 0px 72.5px;
+}
+.portifolio{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #363e50;
+    padding-top: 40px;
+}
+#equipe{
+    margin-top: 10px;
+    padding-top: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Source Sans Pro", "sans-serif";
+    font-size: 30px;
+    background-color: #363e50;
+}
+.img{
+    width: 150px;
+    border-radius: 99px;
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 50px;
+}
+.equipe{
+    display: inline-block;
+    margin: 30px 40px;
+}
+.test{
+    color: #999;
+    font-size: 22px;
+    font-family: "Source Sans Pro", sans-serif;
+    padding-left: 50px;
+}
+.texto{
+    color: white;
+    padding-left: 50px;
+}
+.h4form{
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.pform{
+    text-align: center;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.inputcontato{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 550px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(54, 62, 80, 0.75);
+}
+.textArea{
+    float: right;
+    margin-right: 4%;
+    margin-top: -500px;
+    width: 580px;
+    height: 300px;
+    border-radius: 5px;
+    color: rgba(54, 62, 80, 0.75);
+}
+.contato{
+    background-image: url("../img/rodape.png");
+    height: 700px;
+    background-color: #363e50;
+    margin-top: 10px;
+    padding-top: 40px;
+    
+}
+.btnMsg{
+    text-align: center;
+}
+.msg{
+    width: 120px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #FF3333;
+    border: 1px solid red;
+    color: white;
+    border-radius: 3px;
+}
+.msg:hover{
+    background-color: #F31D1D;
+    cursor: pointer;
+}
+.logotipo{
+    width: 50%;
+    font-size: 0.7rem;
+}
+.logotipo img{
+    width: 40px;
+    margin-bottom: 0px;
+    float: left;
+    margin-right: 10px;
+    
+}
+.redes{
+    width: 50%;
+    float: right;
+}
+.redes ul li h4 {
+    margin-left: -25px;
+    margin-right: 40px;
+    color: white;
+    margin-top: -50px;
+}
+.redes ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+.redes ul li a img {
+    margin-right: 20px;
+    
+    width: 30px;
+    margin-top: -10px;
+}
+footer{
+    height: 200px;
+}
+hr{
+    background-color: #ffffff;
+}
+@media (min-width: 1000px) and (max-width: 1200px){
+    #primeiraImg{
+        width: 100%;
+        height: 610px;
+        
+    }
+    #menu ul li{
+        padding-top: 10px;
+
+    }
+    #menu ul li a{
+        padding: 10px 20px;
+    }
+    .servicos{
+        width: 27%;
+        height: 500px;
+    }
+    #mobile{
+        margin-left: 40px;
+    }
+    #web{
+        margin-left: 40px;
+    }
+    #design{
+        margin-left: 40px;
+    }
+    .h4{
+        color: #ffffff;
+        font: 22px "Source Sans Pro";
+        margin: 25px 20px;
+        padding-top: 0px;
+    }
+    .equipe{
+        text-align: left;
+        width: 100px;
+    }
+    .img{
+        width: 100px;
+    }
+    .texto{
+        font-size: 18px;
+        text-align: center;
+    }
+    .inputcontato{
+        width: 350px;
+        height: 60px;
+    }
+    .textArea{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 999px){
+    
+    #menu ul li a{
+        padding: 10px 10px;
+    }
+    .servicos{
+        width: 27%;
+        height: 500px;
+    }
+    #mobile{
+        margin-left: 18px;
+    }
+    #web{
+        margin-left: 18px;
+    }
+    #design{
+        margin-left: 18px;
+    }
+    .h4{
+        color: #ffffff;
+        font: 20px "Source Sans Pro";
+        margin: 25px 20px;
+        padding-top: 0px;
+    }
+    .equipe{
+        text-align: center;
+        width: 50px;
+    }
+    .img{
+        width: 80px;
+    }
+    .texto{
+        font-size: 15px;
+        text-align: center;
+    }
+    .inputcontato{
+        width: 350px;
+        height: 60px;
+    }
+    .textArea{
+        width: 350px;
+        height: 200px;
+    }
+}
+@media (min-width: 500px) and (max-width: 799px){
+    
+    #menu ul li a{
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+    .servicos{
+        width: 27%;
+        height: 500px;
+    }
+    #mobile{
+        margin-left: 15px;
+    }
+    #web{
+        margin-left: 15px;
+    }
+    #design{
+        margin-left: 18px;
+    }
+    .h4{
+        margin: 15px 10px;
+    
+    }
+    .equipe{
+        text-align: center;
+        width: 50px;
+    }
+    .img{
+        width: 80px;
+    }
+    .texto{
+        font-size: 15px;
+        text-align: center;
+    }
+    .inputcontato{
+        width: 350px;
+        height: 60px;
+    }
+    .textArea{
+        width: 350px;
+        height: 200px;
+    }
+}
