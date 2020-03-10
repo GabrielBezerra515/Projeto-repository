@@ -12,30 +12,32 @@
 <body style="background-color: #666666;">
     <div id="menu">
         <ul>
+                <li><a href="#">Projeto</a></li>
             <li><a href="#contato">Contato</a></li>
             <li><a href="#equipe">Equipe</a></li>
             <li><a href="#portifolio">Portifolio</a></li>
             <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#primeiraImg">Home</a></li>
-
+            <li><a href="#primeiraImg"><img src="img/logo.png" alt=""></a></li>
         </ul>
     </div>
     <div id="primeiraImg">
-        <a href="#servicos"> <button type="button" class="btn">Saiba Mais</button></a>
+        <div id="logo">
+            <a href="#servicos"> <button type="button" class="btn">Saiba Mais</button></a>
+        </div>
     </div><br>
 
     <div id="servicos"><br><br><br>
 
         <div class="servicos" id="mobile">
             <div id="fundoRoza">
-                <img src="img/icon-um.png" alt="">
+                <img src="img/icon-um.png" class="imgIcon" alt="">
                 <h4 class="h4">Desenvolvimento Mobile</h4>
                 <p class="p"></p>
             </div>
         </div>
         <div class="servicos" id="web">
             <div id="fundoPreto">
-                <img src="img/icone-dois.png" alt="">
+                <img src="img/icone-dois.png" class="imgIcon" alt="">
                 <h4 class="h4">Desenvolvimento de aplicações Web</h4>
                 <p class="p"></p>
             </div>
@@ -43,7 +45,7 @@
 
         <div class="servicos" id="design">
             <div id="fundoAzul">
-                <img src="img/icon-um.png" alt="">
+                <img src="img/icon-um.png" class="imgIcon" alt="">
                 <h4 class="h4">Design altamente Responsivo</h4>
                 <p class="p"></p>
             </div>
@@ -52,7 +54,7 @@
 
     <div class="portifolio" id="portifolio"><br><br>
         <h4 class="h4port">Portifólio</h4>
-        <p class="pport">Algumas Imagens de progetos que nossa empresa ja ou está desenvolvendo</p>
+        <p class="pport">Algumas Imagens de projetos que nossa empresa ja ou está desenvolvendo</p>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
     <div id="equipe">
@@ -100,9 +102,9 @@
             <p class="test">Programador</p>
         </div>
     </div>
-    <div class="contato" id="contato"><br>
-        <h4 class="h4form">Contato</h4><br>
-        <p class="pform">Preencha o Formulário abaixo</p>
+    <div class="contato" id="contato">
+        <h4 class="h4form">Contato</h4>
+        <p class="pform">Preencha o Formulário abaixo</p><br>
         <input type="text" placeholder="Seu Nome" class="inputcontato">
         <br>
         <input type="email" placeholder="Seu Email" class="inputcontato">
@@ -118,16 +120,10 @@
     <br>
     <div>
         <textarea placeholder="Digite sua Mensagem" class="textArea"></textarea>
-    </div><br><br><br><br>
+    </div>
     <footer>
-        <div class="logotipo">
-            <img src="img/redesSociais/logotipo.png" alt="logotipo">
-        </div>
         <div class="redes">
             <ul>
-                <li>
-                    <h4>Siga-nos</h4>
-                </li>
                 <li><a href="" target="_blank"><img src="img/redesSociais/facebook.png" alt="Perfil do Facebook"></a>
                 </li>
                 <li><a href="" target="_blank"><img src="img/redesSociais/google.png" alt="Email"></a></li>
@@ -136,7 +132,7 @@
 
             </ul>
         </div>
-        </hr>
+        
 
     </footer>
 </body>
